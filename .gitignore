@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Files
+README_NAO_USAR.md
+
 # Distribution / packaging
 .Python
 build/
