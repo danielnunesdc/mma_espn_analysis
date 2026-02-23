@@ -22,9 +22,13 @@ Seções principais do dashboard:
    tempo/round de término das lutas.
 
 Para executar a aplicação localmente:
+```bash
+# Sincronize as deps do projeto
+uv sync
+```
 
 ```bash
-uv pip install -r requirements.txt
+# Inicie a aplicação Streamlit
 streamlit run app/app.py
 ```
 

@@ -14,11 +14,16 @@ brasileiro.
 Para rodar esta aplicação execute, dentro de um ambiente gerenciado pelo
 `uv`, o comando:
 
-```
-uv pip install -r requirements.txt
-streamlit run mma_espn_analysis/app/streamlit_app.py
+```bash
+# Sincronize as deps do projeto
+uv sync
 ```
 
+```bash
+# Inicie a aplicação Streamlit
+streamlit run app/streamlit_app.py
+```
+ 
 """
 
 from pathlib import Path
